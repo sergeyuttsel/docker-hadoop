@@ -17,3 +17,5 @@ if [ "`ls -A $namedir`" == "" ]; then
 fi
 
 $HADOOP_PREFIX/bin/hdfs --config $HADOOP_CONF_DIR namenode
+
+$HADOOP_HOME/hadoop namenode -format
